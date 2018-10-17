@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/client-go/pkg/api/v1"
-
 	"github.com/jtblin/kube2iam/iam"
+	"k8s.io/api/core/v1"
 )
 
 const (
